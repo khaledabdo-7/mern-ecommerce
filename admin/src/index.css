@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* استايل بسيط للخط والقاعدة */
+body {
+  background-color: #f1f5f9; /* لون رمادي فاتح للخلفية */
+  min-height: 100vh;
+}
