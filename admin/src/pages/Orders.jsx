@@ -109,7 +109,7 @@ const Orders = ({ token }) => {
               <p>Payment : {order.payment ? "Done" : "Pending"}</p>
               <p>Date : {new Date(order.date).toLocaleDateString()}</p>
             </div>
-            <p className="text-sm sm:text-[15px]">${order.amount}</p>
+            <p className="text-sm sm:text-[15px]">EGP{order.amount}</p>
             <select
               onChange={(event) => statusHandler(event, order._id)}
               value={order.status}
